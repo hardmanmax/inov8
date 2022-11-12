@@ -3,6 +3,10 @@
 @import url(//db.onlinewebfonts.com/c/03f16d9e32dbe7da6c831a87bd666b3e?family=DIN+Pro+Bold);
 @import url(//db.onlinewebfonts.com/c/30d8551749f6e45091a70b5a98734251?family=DIN+Pro+Light);
 
+@import url(desktop.css);
+@import url(desktopxl.css);
+@import url(mobile.css);
+@import url(tablet.css);
 
 /* DIN PRO LIGHT */
 @font-face {
@@ -51,9 +55,7 @@
   url("//db.onlinewebfonts.com/t/03f16d9e32dbe7da6c831a87bd666b3e.svg#DIN Pro Bold") format("svg"); 
 }
 
-* {
-  font-family: var(--fw-light);
-}
+
 
 :root{
   --clr-white: #FFFFFF;
@@ -65,13 +67,92 @@
   --clr-black: #000000;
   --clr-mid-grey: #707070;
 
-  --fs-small: 20pt;
-  --fs-medium: 26pt;
-  --fs-large: 46pt;
-  --fs-xlarge: 50pt;
-
   --fw-light: 'DIN Pro Light';
   --fw-regular: 'DIN Pro Regular';
   --fw-medium:'DIN Pro Medium';
   --fw-bold: 'DIN Pro Bold';
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  caret-color: transparent;
+}
+
+body, html {
+  height: 1024px;
+}
+
+h1 {
+  font-family: var(--fw-bold), sans-serif;
+}
+h1 span, h2 {
+  font-family: var(--fw-light), sans-serif;
+}
+
+p {
+  font-family: var(--fw-regular), sans-serif;
+}
+
+/* HEADER STYLES */
+
+.header {
+  height: 100%;
+  background-position: left;
+}
+.notification-pop-up {
+  width: 425px;
+  margin-top: 30px;
+  margin: 70px auto auto 70px;
+}
+
+/* END OF HEADER STYLES */
+
+/* FEATURE PROMO STYLES */
+.feature-promo {
+  background-color: var(--clr-orange);
+  color: var(--clr-white);
+  text-align: center;
+}
+
+.feature-promo-text {
+  margin: 0 25px;
+}
+
+
+.feature-promo-heading .light-text {
+  font-family: 'DIN Pro Light', sans-serif !important;
+  padding: 0;
+  margin: 0
+}
+
+.feature-promo-body p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.feature-promo-image img{
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.shop-link-buttons-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  max-width: 630px;
+}
+
+.shop-link-button {
+  width: 300px;
+  height: 80px;
+  font-size: 20px;
+  font-family: var(--fw-bold), sans-serif;
+  border: none;
+  background-color: var(--clr-white);
+  margin: 15px;
+}
+/* END OF FEATURE PROMO STYLES */

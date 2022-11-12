@@ -1,0 +1,40 @@
+@media (min-width: 768px) and (max-width: 1280px) {
+  body, html {
+    height: 1024px;
+  }
+  
+  /* HEADER STYLES */
+  .header {
+    background-image: url(../assets/tablet/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+
+  /* END OF HEADER STYLES  */
+
+  /* FEATURE PROMO STYLES */
+  .feature-promo-heading {
+    padding-top: 63px;
+  }
+  .feature-promo-heading h1{
+    font-size: 60px;
+  }
+  .feature-promo-heading h2 {
+    font-size: 30px;
+  }
+  .feature-promo-body  {
+    max-width: 500px;
+    margin: auto;
+    padding: 40px 0;  
+  }
+
+
+  .shop-link-buttons-container {
+    padding-bottom: 78px;
+  }
+
+  /* END OF FEATURE PROMO STYLES */
+
+}

@@ -1,0 +1,36 @@
+@media (min-width: 1280px) and (max-width: 1920px) {
+  /* HEADER STYLES */
+  .header {
+    background-image: url(../assets/desktop/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  /* END OF HEADER STYLES */
+
+  /* FEATURE PROMO STYLES */
+
+  .feature-promo-heading {
+    padding: 63px 0
+  }
+  .feature-promo-heading h1{
+    font-size: 60px;
+  }
+  .feature-promo-heading h2 {
+    font-size: 30px;
+  }
+  .feature-promo-body p{
+    padding: 40px auto;
+    max-width: 626px;
+    margin: auto;
+  }
+  .feature-promo-image img{
+    width: 626px;
+  }
+  .shop-link-buttons-container {
+    padding-bottom: 83px;
+  }
+
+  /* END OF FEATURE PROMO STYLES */
+
+}

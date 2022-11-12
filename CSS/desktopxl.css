@@ -1,0 +1,44 @@
+@media (min-width: 1920px) {
+
+  .header {
+    background-image: url(../assets/desktop/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .notification-pop-up {
+    width: 615px !important;
+  }
+
+  
+  /* FEATURE PROMO STYLES */
+
+  .feature-promo-heading {
+    padding-top: 102px;
+    padding-bottom: 40px;
+  }
+  .feature-promo-heading h1{
+    font-size: 90px;
+  }
+  .feature-promo-heading h2 {
+    font-size: 40px;
+  }
+
+  .feature-promo-body p{
+    padding: 40px auto;
+    font-size: 30px !important;
+    line-height: 40px !important;
+    max-width: 716px;
+    margin: auto;
+  }
+  .feature-promo-image img{
+    width: 934px;
+  }
+  .shop-link-buttons-container {
+    padding-bottom: 193px;
+  }
+
+  /* END OF FEATURE PROMO STYLES */
+
+}
