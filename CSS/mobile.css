@@ -59,4 +59,14 @@
   }
     /* END OF IMAGE GRID STYLES */
 
+/* PRODUCT DETAIL STYLES */
+.product-detail {
+  background-image: url(../assets/mobile/tech.jpg) !important;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center !important;
+}
+/* END OF PRODUCT DETAIL STYLES */
+
 }

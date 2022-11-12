@@ -80,7 +80,8 @@
 }
 
 body, html {
-  height: 1024px;
+  /* height: 1024px; */
+  height: 100%;
 }
 
 h1 {
@@ -183,3 +184,14 @@ p {
 
 
 /* END OF IMAGE GRID STYLES */
+
+/* PRODUCT DETAIL STYLES */
+.product-detail {
+  background-image: url(../assets/desktop/tech.jpg);
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* END OF PRODUCT DETAIL STYLES */
