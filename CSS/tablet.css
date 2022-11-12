@@ -50,4 +50,34 @@
 
 
 /* END OF PRODUCT DETAIL STYLES */
+
+.footer {
+  padding: 36px;
+
+}
+/* SHOP LINKS STYLES */
+.shop-links {
+  flex-direction: row;
+  max-width: 820px;
+
+}
+
+.shoes-preview {
+  flex-direction: column;
+}
+
+.shoes-preview-images img, .shoes-preview button {
+  margin-bottom: 60px;
+}
+.shoes-preview-images {
+  flex-direction: column;
+}
+
+.shoes-preview-images img{
+ width: 328px
+}
+
+
+/* END OF SHOP LINKS STYLES */
+
 }

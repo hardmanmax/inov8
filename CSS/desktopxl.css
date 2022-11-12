@@ -54,4 +54,20 @@
   /* PRODUCT DETAIL STYLES */
 
 /* END OF PRODUCT DETAIL STYLES */
+
+/* SHOP LINKS STYLES */
+  .shop-links {
+   max-width: 1616px;
+  }
+
+  .shoes-preview {
+    padding-top: 320px;
+  }
+
+  .preview-button-container {
+    margin-top: 194px;
+    margin-bottom: 170px;
+  }
+/* END OF SHOP LINKS STYLES */
+
 }
