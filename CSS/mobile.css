@@ -47,4 +47,16 @@
 
   /* END OF FEATURE PROMO STYLES */
 
+
+  /* IMAGE GRID STYLES */
+
+  .image-grid {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .grid-container {
+    grid-gap: 6px;
+  }
+    /* END OF IMAGE GRID STYLES */
+
 }

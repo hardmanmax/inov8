@@ -32,9 +32,17 @@
 
 
   .shop-link-buttons-container {
-    padding-bottom: 78px;
+    /* Added 50px more than spec */
+    padding-bottom: 128px;
   }
 
   /* END OF FEATURE PROMO STYLES */
+
+  /* IMAGE GRID STYLES */
+
+  .grid-container {
+    grid-gap: 13px;
+  }
+  /* END OF IMAGE GRID STYLES */
 
 }

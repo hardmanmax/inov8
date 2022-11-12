@@ -28,9 +28,23 @@
     width: 626px;
   }
   .shop-link-buttons-container {
-    padding-bottom: 83px;
+    /* Added 50px more than spec */
+    padding-bottom: 133px;
   }
 
   /* END OF FEATURE PROMO STYLES */
 
+    /* IMAGE GRID STYLES */
+
+    .imge-grd {
+      margin: -5% 50px;
+    }
+    .grid-container {
+      grid-gap: 20px;
+      max-width: 1180px;
+    }
+    .grid-item img{
+      width: 580px;
+    }
+    /* END OF IMAGE GRID STYLES */
 }

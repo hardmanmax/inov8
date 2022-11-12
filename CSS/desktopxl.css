@@ -41,4 +41,13 @@
 
   /* END OF FEATURE PROMO STYLES */
 
+  /* IMAGE GRID STYLES */
+
+  .image-grid {
+    margin: -5% 50px;
+  }
+  .grid-container {
+    grid-gap: 20px;
+  }
+  /* END OF IMAGE GRID STYLES */
 }
