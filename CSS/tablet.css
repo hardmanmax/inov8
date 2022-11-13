@@ -52,9 +52,6 @@
 /* END OF PRODUCT DETAIL STYLES */
 
 
-.footer {
-  padding: 36px;
-}
 /* SHOP LINKS STYLES */
 .shop-links {
   flex-direction: row;
@@ -80,4 +77,37 @@
 
 /* END OF SHOP LINKS STYLES */
 
+/* BLOG STYLES */
+
+.blog {
+  padding: 25px !important;
+}
+.blog-title-container {
+  padding: 40px 25px 30px 0px; 
+}
+
+.blog-title {
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.blog-entry {
+  margin-right: 20px;
+  width: 373px;
+}
+
+.blog-entry img {
+  height: 279px;
+}
+
+.blog-entry-text {
+  font-size: 20px;
+  line-height: 26px;
+  margin-left: 19px;
+  padding-bottom: 51px;
+  padding-top: 19px;
+  margin-right: 23px;
+}
+
+/* END OF BLOG STYLES */
 }
