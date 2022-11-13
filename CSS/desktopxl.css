@@ -2,9 +2,7 @@
 
   .header {
     background-image: url(../assets/desktop/header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+
   }
 
   .notification-pop-up {
@@ -43,9 +41,6 @@
 
 /* IMAGE GRID STYLES */
 
-  .image-grid {
-    margin: -5% 50px;
-  }
   .grid-container {
     grid-gap: 20px;
   }
@@ -69,6 +64,9 @@
     margin-bottom: 170px;
   }
 /* END OF SHOP LINKS STYLES */
+
+/* VIDEO STYLES */
+/* END OF VIDEO STYLES */
 
 /* BLOG STYLES */
 

@@ -103,6 +103,9 @@ p {
 .header {
   height: 100%;
   background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 .notification-pop-up {
   width: 425px;
@@ -150,12 +153,16 @@ p {
   max-width: 630px;
 }
 
-.shop-link-button {
+.button {
   width: 300px;
   height: 80px;
   font-size: 20px;
   font-family: var(--fw-bold), sans-serif;
   border: none;
+}
+
+
+.shop-link-button {
   background-color: var(--clr-white);
   margin: 15px;
 }
@@ -224,13 +231,8 @@ p {
   max-width: 404px;
 }
 
-
 .shoes-preview-button {
   background-color: var(--clr-green);
-  border: none;
-  width: 300px;
-  height: 80px;
-  font-size: 20px;
   font-family: var(--fw-bold);
   margin: auto;
 }

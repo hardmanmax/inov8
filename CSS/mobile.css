@@ -7,9 +7,6 @@
   /* HEADER STYLES */
   .header {
     background-image: url(../assets/mobile/header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
     text-align: center;
   }
 

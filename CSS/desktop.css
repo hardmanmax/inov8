@@ -2,9 +2,7 @@
 /* HEADER STYLES */
   .header {
     background-image: url(../assets/desktop/header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+
   }
 /* END OF HEADER STYLES */
 
@@ -36,9 +34,6 @@
 
 /* IMAGE GRID STYLES */
 
-    .imge-grd {
-      margin: -5% 50px;
-    }
     .grid-container {
       grid-gap: 20px;
       max-width: 1180px;
@@ -49,7 +44,7 @@
 /* END OF IMAGE GRID STYLES */
 
 /* PRODUCT DETAIL STYLES */
-/*  */
+
 /* END OF PRODUCT DETAIL STYLES */
 
 /* SHOP LINKS STYLES */
@@ -73,6 +68,8 @@
 
 /* END OF SHOP LINKS STYLES */
 
+/* VIDEO STYLES */
+/* END OF VIDEO STYLES */
 
 /* BLOG STYLES */
 
