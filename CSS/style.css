@@ -191,7 +191,7 @@ p {
 /* PRODUCT DETAIL STYLES */
 .product-detail {
   background-image: url(../assets/desktop/tech.jpg);
-  height: 120%;
+  height: 140%;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,3 +234,23 @@ p {
   margin: auto;
 }
 /* END OF SHOP LINKS STYLES */
+
+/* VIDEO STYLES */
+
+.video-mobile {
+  display: none;
+}
+
+.video-large {
+  display: block;
+}
+
+.video-mobile-content, .video-desktop-content {
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+/* END OF VIDEO STYLES  */

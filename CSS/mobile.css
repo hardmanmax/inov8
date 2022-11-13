@@ -69,6 +69,10 @@
 }
 /* END OF PRODUCT DETAIL STYLES */
 
+.footer {
+  padding: none;;
+
+}
 
 /* SHOP LINKS STYLES */
 .shop-links {
@@ -94,4 +98,14 @@
 
 /* END OF SHOP LINKS STYLES */
 
+
+/* VIDEO STYLES  */
+  .video-mobile {
+    display: block !important;
+  }
+
+  .video-large {
+    display: none !important;
+  }
+/* END OF VIDEO STYLES  */
 }
