@@ -17,17 +17,44 @@
   --clr-dk-grey:#000000a5;
   --clr-black:#000;
   --clr-mid-grey:#707070;
+
   --fw-light:"DIN Pro Light";
   --fw-regular:"DIN Pro Regular";
   --fw-medium:"DIN Pro Medium";
   --fw-bold:"DIN Pro Bold"
 }   
 
-*{box-sizing:border-box;
+*
+{
+  box-sizing:border-box;
   caret-color:transparent;
   margin:0;
   padding:0
 }
 
 
-body,html{height:100%}h1,h3{font-family:var(--fw-bold),sans-serif}h1 span,h2{font-family:var(--fw-light),sans-serif}p{font-family:var(--fw-regular),sans-serif}.hidden{display:none}.header{align-items:center;display:flex;justify-content:center}.header-container,.product-detail-container{background-position:50%;position:relative}.header-background-image,.product-detail-background-image{width:100%}.notification{left:70px;position:absolute;top:70px}.notification-pop-up{width:100%}.feature-promo{background-color:var(--clr-orange);color:var(--clr-white);text-align:center}.feature-promo-text{margin:0 25px}.feature-promo-heading .light-text{font-family:DIN Pro Light,sans-serif!important;margin:0}.feature-promo-body p{font-size:20px;line-height:30px}.feature-promo-image img{display:block;margin:0 auto;max-height:100%;max-width:100%;padding:0}.shop-link-buttons-container{display:flex;justify-content:space-evenly;margin:0 auto;max-width:630px}.button{border:none;font-family:var(--fw-bold),sans-serif;font-size:20px;height:80px;width:300px}.shop-link-button{background-color:var(--clr-white);margin:15px}.image-grid{margin:-5% 0;padding:0 20px;width:100%}.grid-container{display:grid;grid-template-columns:auto auto;margin:0 auto;max-width:1220px}.grid-item{max-width:600px}.grid-item img{height:100%;object-fit:cover;width:100%}.product-detail{background-position:50%;background-repeat:no-repeat;background-size:100% auto}.product-detail-container{z-index:-1}.shop-links-container{background-color:var(--clr-lt-grey);width:100%}.shoes-preview-button{background-color:var(--clr-green);font-family:var(--fw-bold)}.shop-links-grid{display:grid;margin:0 auto}.grid-button,.grid-shoe{display:flex}.video-mobile{display:none}.video-large,.video-mobile{background-color:var(--clr-white)}.video-large{display:block}.video-desktop-content,.video-mobile-content{height:auto;width:100%}.blog{padding:50px}.blog,.blog-entries-carousel{background-color:var(--clr-white);width:100%}.blog-entries-carousel{display:flex;flex-direction:row;justify-content:space-between;margin:0 auto;overflow:scroll}.blog-entries-carousel::-webkit-scrollbar{display:none}.blog-entry{background-color:var(--clr-lt-grey)}
+body,html{
+  height:100%
+}
+h1,h3{
+  font-family:var(--fw-bold), sans-serif
+}
+
+h1 span,h2{
+  font-family:var(--fw-light),sans-serif
+}
+p
+{font-family:var(--fw-regular),sans-serif
+}
+.hidden{
+  display:none
+}
+.header{
+  align-items:center;
+  display:flex;
+  justify-content: center;
+}
+.header-container,.product-detail-container{
+  background-position:50%;
+  position:relative
+}.header-background-image,.product-detail-background-image{width:100%}.notification{left:70px;position:absolute;top:70px}.notification-pop-up{width:100%}.feature-promo{background-color:var(--clr-orange);color:var(--clr-white);text-align:center}.feature-promo-text{margin:0 25px}.feature-promo-heading .light-text{font-family:DIN Pro Light,sans-serif!important;margin:0}.feature-promo-body p{font-size:20px;line-height:30px}.feature-promo-image img{display:block;margin:0 auto;max-height:100%;max-width:100%;padding:0}.shop-link-buttons-container{display:flex;justify-content:space-evenly;margin:0 auto;max-width:630px}.button{border:none;font-family:var(--fw-bold),sans-serif;font-size:20px;height:80px;width:300px}.shop-link-button{background-color:var(--clr-white);margin:15px}.image-grid{margin:-5% 0;padding:0 20px;width:100%}.grid-container{display:grid;grid-template-columns:auto auto;margin:0 auto;max-width:1220px}.grid-item{max-width:600px}.grid-item img{height:100%;object-fit:cover;width:100%}.product-detail{background-position:50%;background-repeat:no-repeat;background-size:100% auto}.product-detail-container{z-index:-1}.shop-links-container{background-color:var(--clr-lt-grey);width:100%}.shoes-preview-button{background-color:var(--clr-green);font-family:var(--fw-bold)}.shop-links-grid{display:grid;margin:0 auto}.grid-button,.grid-shoe{display:flex}.video-mobile{display:none}.video-large,.video-mobile{background-color:var(--clr-white)}.video-large{display:block}.video-desktop-content,.video-mobile-content{height:auto;width:100%}.blog{padding:50px}.blog,.blog-entries-carousel{background-color:var(--clr-white);width:100%}.blog-entries-carousel{display:flex;flex-direction:row;justify-content:space-between;margin:0 auto;overflow:scroll}.blog-entries-carousel::-webkit-scrollbar{display:none}.blog-entry{background-color:var(--clr-lt-grey)}
