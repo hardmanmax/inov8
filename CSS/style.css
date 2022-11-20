@@ -34,6 +34,17 @@
   url("//db.onlinewebfonts.com/t/5fd82f3bb8dcfc3ce611fab541b92241.ttf") format("truetype"), 
   url("//db.onlinewebfonts.com/t/5fd82f3bb8dcfc3ce611fab541b92241.svg#DIN Pro Medium") format("svg"); 
 }
+/* DIN PRO BOLD */
+@font-face {
+  font-family: "DIN Pro Bold"; 
+  src: url("//db.onlinewebfonts.com/t/03f16d9e32dbe7da6c831a87bd666b3e.eot"); 
+  src: url("//db.onlinewebfonts.com/t/03f16d9e32dbe7da6c831a87bd666b3e.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/03f16d9e32dbe7da6c831a87bd666b3e.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/03f16d9e32dbe7da6c831a87bd666b3e.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/03f16d9e32dbe7da6c831a87bd666b3e.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/03f16d9e32dbe7da6c831a87bd666b3e.svg#DIN Pro Bold") format("svg"); 
+}
+
 :root {
   --clr-white: #fff;
   --clr-orange: #ddad42;
