@@ -125,7 +125,13 @@
 
 
 /* VIDEO STYLES  */
-
+.video-mobile {
+  display: block !important;
+  padding: 20px;
+}
+.video-large {
+  display: none !important;
+}
 /* END OF VIDEO STYLES  */
 
 /* BLOG STYLES */

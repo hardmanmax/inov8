@@ -261,13 +261,20 @@ p {
 /* END OF SHOP LINKS STYLES */
 
 /* VIDEO STYLES */
-
-.video {
-  width: 100%;
+.video-mobile {
+  display: none;
+  background-color: var(--clr-white);
 }
-.video-container {
-  margin: 0 auto;
+
+.video-large {
+  display: block;
+  background-color: var(--clr-white);
+}
+
+.video-mobile-content, .video-desktop-content {
   width: 100%;
+  height: auto;
+
 }
 
 /* END OF VIDEO STYLES  */
