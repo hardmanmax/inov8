@@ -1,12 +1,14 @@
 @media (min-width: 1920px) {
 
   .header {
-    background-image: url(../assets/desktop/header.jpg);
-
+    width: 100%;
+  }  
+  .header-container {  
+    background-size: cover;
+    width: 100%;
   }
-
-  .notification-pop-up {
-    width: 615px !important;
+  .notification {
+    max-width: 615px;
   }
 
   
@@ -51,7 +53,7 @@
 /* END OF PRODUCT DETAIL STYLES */
 
 /* SHOP LINKS STYLES */
-  .shop-links {
+  /* .shop-links {
    max-width: 1616px;
   }
 
@@ -62,10 +64,57 @@
   .preview-button-container {
     margin-top: 194px;
     margin-bottom: 170px;
+  } */
+
+  .shop-links-container {
+    padding-top: 323px;
+    padding-bottom: 170px;
   }
+
+  .shop-links-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "gs1 gs2 gs3 gs4" 
+    ". gb1 gb2 .";
+    max-width: 1885px;
+    gap: 30px;
+  }
+  
+  .grid-shoe-1 {
+    grid-area: gs1;
+  }
+  .grid-shoe-2 {
+    grid-area:gs2;
+  }
+  .grid-shoe-3 {
+    grid-area: gs3;
+  }
+  .grid-shoe-4 {
+    grid-area: gs4;
+  }
+
+  .grid-shoe, .grid-shoe img {
+    width: 455px;
+    height: 244px;
+  }
+  .grid-button {
+    margin-top: 164px;
+  }
+  .grid-button-1 {
+    grid-area: gb1;
+    justify-content: flex-end;
+  }
+  .grid-button-2 {
+    grid-area: gb2;
+  }
+
 /* END OF SHOP LINKS STYLES */
 
 /* VIDEO STYLES */
+.video-container {
+  padding: 50px;
+}
 /* END OF VIDEO STYLES */
 
 /* BLOG STYLES */

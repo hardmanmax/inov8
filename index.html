@@ -1,31 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="CSS/style.css">
-  <link href="//db.onlinewebfonts.com/c/15a478cc0eb1d84f4077a2a9d28df0b2?family=DIN+Pro+Regular" rel="stylesheet" type="text/css"/>
-  <link href="//db.onlinewebfonts.com/c/03f16d9e32dbe7da6c831a87bd666b3e?family=DIN+Pro+Bold" rel="stylesheet" type="text/css"/>
-  <link href="//db.onlinewebfonts.com/c/5fd82f3bb8dcfc3ce611fab541b92241?family=DIN+Pro+Medium" rel="stylesheet" type="text/css"/>
-  <link href="//db.onlinewebfonts.com/c/30d8551749f6e45091a70b5a98734251?family=DIN+Pro+Light" rel="stylesheet" type="text/css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/15a478cc0eb1d84f4077a2a9d28df0b2?family=DIN+Pro+Regular"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/03f16d9e32dbe7da6c831a87bd666b3e?family=DIN+Pro+Bold"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/5fd82f3bb8dcfc3ce611fab541b92241?family=DIN+Pro+Medium"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/30d8551749f6e45091a70b5a98734251?family=DIN+Pro+Light"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="script.js"></script>
+  </head>
+  <body>
+    
+  <section class="header">
+    <div class="header-container">
+    <picture class="header-background">
+      <source media="(min-width: 1280px)" srcset="assets/desktop/header.jpg">
+      <source media="(min-width: 768px)" srcset="assets/tablet/header.jpg">
+      <source media="(min-width: 374px)" srcset="assets/mobile/header.jpg">
+      <img class="header-background-image" src="assets/desktop/header.jpg" alt="">
+    </picture>
+    <div class="notification">
+      <img class="notification-pop-up" src="assets/desktop/notification-graphic.svg" alt="reminder">
+    </div>
+    </div>
+  </section>
 
 
-  <script src="script.js"></script>
-
-</head>
-<body>
-  <header class="header">
-    <img class="notification-pop-up" src="assets/desktop/notification-graphic.svg" alt="reminder">
-  </header>
 
   <section class="feature-promo">
     <div class="feature-promo-text">
       <div class="feature-promo-heading">
         <h1>
-          PARK<span class="light-text">CLAW</span>
-          G 280
+          PARK<span class="light-text">CLAW</span> G 280
         </h1>
         <h2>ESCAPE THE GREY</h2>
       </div>
@@ -42,6 +68,7 @@
       <button class="shop-link-button button">SHOP WOMEN</button>
     </div>
   </section>
+
   <section class="image-grid">
     <div class="grid-container">
       <div class="grid-item">
@@ -58,43 +85,48 @@
       </div>
     </div>
   </section>
-  <section class="product-detail"> 
 
+  <section class="product-detail"> 
+    <div class="product-detail-container">
+      <picture class="product-detail-background">
+        <source media="(min-width: 768px)" srcset="assets/desktop/tech.jpg">
+        <source media="(min-width: 374px)" srcset="assets/mobile/tech.jpg">
+        <img class="product-detail-background-image" src="assets/desktop/header.jpg" alt="">
+      </picture>
+      </div>
   </section>
-  <section class="footer">
-    <div class="shop-links-container">
-      <div class="shop-links">
-        <div class="shoes-preview">
-          <div class="shoes-preview-images">
-            <img src="assets/desktop/parkclaw-navy.jpg" alt="">
-            <img src="assets/desktop/parkclaw-red.jpg" alt="">
-          </div>
-          <div class="preview-button-container">
-            <button class="shoes-preview-button button">SHOP MEN</button>
-          </div>
+
+    <section class="footer">
+    </div> 
+      <div class="shop-links-container">
+        <div class="shop-links-grid">
+        <div class="grid-shoe-1 grid-shoe">
+          <img src="assets/desktop/parkclaw-black.jpg" alt="" />
         </div>
-        <div class="shoes-preview">
-          <div class="shoes-preview-images">
-            <img src="assets/desktop/parkclaw-black.jpg" alt="">
-            <img src="assets/desktop/parkclaw-blue.jpg" alt="">
-          </div>
-          <div class="preview-button-container">
-            <button class="shoes-preview-button button">SHOP WOMEN</button>
-          </div>
+        <div class="grid-shoe-2 grid-shoe">
+          <img src="assets/desktop/parkclaw-blue.jpg" alt="" />
+        </div>
+        <div class="grid-button-1 grid-button">
+          <button class="shoes-preview-button button">SHOP MEN</button>
+        </div>
+        <div class="grid-shoe-3 grid-shoe">
+          <img src="assets/desktop/parkclaw-navy.jpg" alt="" />
+        </div>
+        <div class="grid-shoe-4 grid-shoe">
+          <img src="assets/desktop/parkclaw-red.jpg" alt="" />
+        </div>
+        <div class="grid-button-2 grid-button">
+          <button class="shoes-preview-button button">SHOP WOMEN</button>
         </div>
       </div>
-       
-    </div>
-    <div class="video-mobile">
-      <video autoplay muted loop class="video-mobile-content">
-        <source src="assets/video/Inov8_30 sec_no graphics_Proxy.mp4">
-      </video>
-    </div>
-    <div class="video-large">
-      <video autoplay muted loop class="video-desktop-content">
-        <source src="assets/video/Inov8_30 sec_no graphics_169_Proxy.mp4">
-      </video>
-    </div> 
+      </div>
+
+      <div class="video-container">
+        <video autoplay muted loop class="video">
+          <source media="(min-width: 374px) and (max-width: 768px)" src="assets/video/Inov8_30 sec_no graphics_Proxy.mp4">
+          <source media="(min-width: 768px)" src="assets/video/Inov8_30 sec_no graphics_169_Proxy.mp4">
+        </video>
+      </div>
 
     <div class="blog">
       <div class="blog-title-container">
@@ -120,13 +152,7 @@
           </div>
         </div>
       </div>
-    </div>
-
-
-  </section>
-  
-
-
-    
-</body>
+    </div> 
+    </section>
+  </body>
 </html>
